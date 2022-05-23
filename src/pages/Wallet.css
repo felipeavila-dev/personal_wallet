@@ -1,0 +1,96 @@
+/* CABEÇALHO */
+
+header {
+  width: 100vw;
+  background-color: rgb(40, 40, 40);
+  padding: 15px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-title {
+  display: flex;
+  align-items: baseline;
+  color: white;
+}
+
+.header-title h1 {
+  color: rgb(44, 145, 44);
+  margin-right: 5px;
+}
+
+.header-title h2 {
+  font-size: 17px;
+}
+
+.header-userInfos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.header-userInfos .email-field {
+  margin-right: 20px;
+  font-weight: 600;
+  text-decoration: underline;
+  font-size: 15px;
+  color: rgb(44, 145, 44);
+}
+
+.header-userInfos .total-field {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.header-userInfos .currency-field {
+  color: lightgray;
+  font-size: 15px;
+}
+
+/* AREA DE INPUTS */
+
+section {
+  background-color: rgb(19, 19, 19);
+  padding: 12px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-size: 13px;
+}
+
+section select,
+section input {
+  margin-left: 5px;
+  border: 0;
+  padding: 5px 10px;
+  outline: none;
+}
+
+section .add-btn {
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+/* EXIBIÇÃO DO CONTEUDO DA TABELA */
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+table td {
+  max-width: 250px;
+  word-wrap: break-word;
+}
+
+.button-cell button{
+  margin: 0px 5px;
+}
