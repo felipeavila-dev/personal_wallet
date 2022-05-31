@@ -1,6 +1,8 @@
 # Descrição do projeto:
 Projeto desenvolvido para controlar seus gastos pessoais de forma simples. O principal objetivo desse projeto foi praticar o redux e entender seu funcionamento na prática!
 
+Projeto desenvolvido durantes os estudos na Trybe.
+
 # Tecnologias utilizadas:
 
 - <b> React Js</b> 
